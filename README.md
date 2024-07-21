@@ -139,7 +139,7 @@ brew install velero
                 "s3:ListMultipartUploadParts"
             ],
             "Resource": [
-                "arn:aws:s3:::${VELERO_BUCKET}/*"
+                "arn:aws:s3:::argocd-bk-88/*"
             ]
         },
         {
@@ -148,7 +148,7 @@ brew install velero
                 "s3:ListBucket"
             ],
             "Resource": [
-                "arn:aws:s3:::${VELERO_BUCKET}"
+                "arn:aws:s3:::argocd-bk-88"
             ]
         }
     ]
